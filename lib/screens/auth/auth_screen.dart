@@ -9,11 +9,11 @@ import '../repo/repo_screen.dart';
 class AuthScreen extends StatelessWidget {
   final _controller = TextEditingController();
 
-  AuthScreen({Key? key}) : super(key: key);
+  AuthScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
+
 
     return Scaffold(
       appBar: AppBar(

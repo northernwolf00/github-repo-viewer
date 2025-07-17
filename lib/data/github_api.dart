@@ -12,7 +12,7 @@ class GitHubApi {
       } else {
         throw Exception('Failed to load repositories: ${response.statusCode}');
       }
-    } on DioError catch (e) {
+    } on DioException catch (e) {
       throw Exception('Network error: ${e.message}');
     }
   }

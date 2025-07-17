@@ -6,7 +6,7 @@ import 'package:github_repo/blocs/repo/repo_state.dart';
 
 class RepoScreen extends StatelessWidget {
   final String username;
-  const RepoScreen({Key? key, required this.username}) : super(key: key);
+  const RepoScreen({super.key, required this.username});
 
   @override
   Widget build(BuildContext context) {
