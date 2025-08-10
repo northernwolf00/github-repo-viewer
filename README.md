@@ -7,11 +7,11 @@ A new Flutter project.
 
 ## 📷 Screenshots
 
-### Screen 1 — Display
-![Home Screen](assets/screenshots/photo1.jpeg)
-
-### Screen 2 — Settings
-![Settings Screen](assets/screenshots/photo2.jpeg)
+<p align="center">
+  <img src="assets/screenshots/photo1.jpeg" alt="" width="45%"/>
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/photo2.jpeg" alt=" " width="45%"/>
+</p>
 
 
 This project is a starting point for a Flutter application.
